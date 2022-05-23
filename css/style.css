@@ -21,7 +21,7 @@ h1 {
 }
 
 .container {
-    width: 900px;
+    width: 960px;
     margin: 25px auto;
     justify-content: center;
     display: flex;
@@ -29,10 +29,11 @@ h1 {
 }
 
 .square {
-    width: 75px;
+    width: 85px;
     aspect-ratio: 1;
     margin: 5px;
     border: 1px solid yellow;
+    color: white;
     display: flex;
     justify-content: center;
     align-items: center;
