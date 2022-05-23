@@ -2,9 +2,9 @@
 const squaresCont = document.getElementById('squares-cont');
 
 let basicSquare = '<div class="square"></div>';
-let fizzBuzz = '<div class="square">FizzBuzz</div>';
-let buzz = '<div class="square">Buzz</div>';
-let fizz = '<div class="square">Fizz</div>';
+let fizzBuzz = '<div class="square fizzbuzz">FizzBuzz</div>';
+let buzz = '<div class="square buzz">Buzz</div>';
+let fizz = '<div class="square fizz">Fizz</div>';
 
 
 for (let i = 1; i <= 100; i++) {
