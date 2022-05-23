@@ -40,6 +40,10 @@ h1 {
     align-items: center;
 }
 
+.basic {
+    background-color: #5288ae;
+}
+
 .buzz {
     background-color: #f2d279;
 }
