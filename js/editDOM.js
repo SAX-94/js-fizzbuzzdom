@@ -1,7 +1,7 @@
 
 const squaresCont = document.getElementById('squares-cont');
 
-let basicSquare = '<div class="square"></div>';
+let basicSquare = '<div class="square basic"></div>';
 let fizzBuzz = '<div class="square fizzbuzz">FizzBuzz</div>';
 let buzz = '<div class="square buzz">Buzz</div>';
 let fizz = '<div class="square fizz">Fizz</div>';
@@ -19,7 +19,7 @@ for (let i = 1; i <= 100; i++) {
         squaresCont.innerHTML += fizz;
     } else {
         console.log(i);
-        squaresCont.innerHTML += `<div class="square">${i}</div>`;
+        squaresCont.innerHTML += `<div class="square basic">${i}</div>`;
     }
 }
 
