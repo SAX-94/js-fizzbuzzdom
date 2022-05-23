@@ -34,7 +34,25 @@ h1 {
     margin: 5px;
     border: 1px solid yellow;
     color: white;
+    font-weight: bold;
     display: flex;
     justify-content: center;
     align-items: center;
+}
+
+.buzz {
+    background-color: #f2d279;
+}
+
+.fizz {
+    background-color: #77d1a5;
+}
+
+.fizzbuzz {
+    background-color: #d35972;
+}
+
+.buzz, .fizz, .fizzbuzz {
+    color: black;
+    font-weight: bold;
 }
