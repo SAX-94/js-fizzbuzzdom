@@ -19,7 +19,7 @@ for (let i = 1; i <= 100; i++) {
         squaresCont.innerHTML += fizz;
     } else {
         console.log(i);
-        squaresCont.innerHTML += basicSquare;
+        squaresCont.innerHTML += `<div class="square">${i}</div>`;
     }
 }
 
